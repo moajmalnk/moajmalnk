@@ -1,0 +1,16 @@
+#amm_drcfw_toast_msg {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #9900CC;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+#amm_drcfw_toast_msg.show {
+    display: block;
+}
